@@ -1,12 +1,17 @@
-    {
+{
         "type": "module",
-        "name": "desafio2",
+        "name": "desafio3",
         "version": "1.0.0",
         "description": "",
-        "main": "index.js",
+        "main": "ProductManager.js",
         "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+                "start": "node src/app.js",
+                "dev": "nodemon src/app.js"
         },
+        "keywords": [],
         "author": "",
-        "license": "ISC"
-    }
+        "license": "ISC",
+        "dependencies": {
+                "express": "^4.18.2"
+        }
+        }

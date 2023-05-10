@@ -115,4 +115,7 @@ class ProductManager {
     }
 
 
-manager.deleteProduct(1)
+manager.deleteProduct(0)
+
+
+export default ProductManager;
