@@ -5,9 +5,9 @@ class ProductManager {
         this.filePath = filePath;
     }
 
-    async readData() {
+    async getProducts() {
         try {
-        const data = await fs.readFile(this.filePath);
+        const data = await fs.getProducts(this.filePath);
         return JSON.parse(data);
         } catch (error) {
         console.error(`Error al leer el archivo ${this.filePath}: ${error.message}`);
@@ -26,19 +26,19 @@ class ProductManager {
     }
 
     async generateId() {
-        const products = await this.readData();
+        const products = await this.getProducts();
         return products.length + 1;
     }
 
     async addProduct(product) {
-        const products = await this.readData();
+        const products = await this.getProducts();
         products.push(product);
         console.log('Producto agregado con éxito');
         await this.writeData(products);
     }
 
     async getProductById(id) {
-        const products = await this.readData();
+        const products = await this.getProducts();
         const product = products.find((product) => product.id === id);
         if (!product) {
         console.log('Producto no encontrado');
@@ -48,7 +48,7 @@ class ProductManager {
     }
 
     async updateProduct(id, product) {
-        const products = await this.readData();
+        const products = await this.getProducts();
         const index = products.findIndex((product) => product.id === id);
         if (index === -1) {
         console.log('Producto no encontrado');
@@ -60,7 +60,7 @@ class ProductManager {
     }
 
     async deleteProduct(id) {
-        const products = await this.readData();
+        const products = await this.getProducts();
         const index = products.findIndex((product) => product.id === id);
         if (index === -1) {
         console.log('Producto no encontrado');
