@@ -1,8 +1,47 @@
-[{"id":1,
-"title":"Harry Potter: La piedra Filosofal",
-"description":"J K Rowlin",
-"price":"4500",
-"code":"zE9R3",
-"stock":"30",
-"category":"Fantastico",
-"status":true}]
+[
+    {
+        "id": 1, "title": "Virginia Style Spinach", "price": 2350, "category": "appetizers", "code": 1122, "stock": 25, "description": "250g de espinaca con queso fundido, acompañado de nachos, queso crema y salsa mediterranea.", "status":true
+    },
+    {
+        "id": 2, "title": "Mozzarella St. George", "price": 2150, "category": "appetizers", "code":1123, "stock": 30, "description":"6 triangulos de mozzarella rebozada con salsa mediterranea y aderezo ranch.", "status":true
+    },
+    {
+        "id": 3, "title": "Buffalo Wings", "price": 1890, "category": "appetizers", "code":1124, "stock": 5, "description": "Alitas de pollo crocantes con salsa barbacoa común/picante.","status":true
+    },
+    {
+        "id": 4, "title": "Guadalupe Baby - Backs Ribs", "price": 4150, "category": "steaks", "code":1125, "stock": 10, "description": "600g de costillar de cerdo ahumado y bañado con salsa barbecue, asado a la leña y acompañado con papas fritas y ensalada cole slaw.","status":true
+    },
+    {
+        "id": 5, "title": "Honokam Chicken", "price": 3200, "category": "steaks", "code":1126, "stock": 20, "description":"270g de pechuga deshuesada marinada 48 hs. en vino blanco y especias, asada a la leña, con tomate picado, cebollin y queso fundido, con papas fritas y ensalada cole slaw.","status":true
+    },
+    {
+        "id": 6, "title": "Italian Style Salmon", "price": 5200, "category": "steaks", "code":1127, "stock": 15, "description":"170g de filet de salmon fresco asado a la leña con risotto de calabaza y parmesano.","status":true
+    },
+    {
+        "id": 7, "title": "Bife De Chorizo 400g", "price": 5300, "category": "argentinos", "code":1128, "stock": 13, "description":"400g de Bife de chorizo asado a la leña con ensalada o papas fritas.","status":true
+    },
+    {
+        "id": 8, "title": "Entraña 300g", "price": 4200, "category": "argentinos", "code":1129, "stock": 14, "description":"300g de Entraña asada a la leña con ensalada o papas fritas.","status":true
+    },
+    {
+        "id": 9, "title": "Pollo Deshuesado A La Parrilla 300g", "price": 2800, "category": "argentinos", "code":1130, "stock": 25, "description":"300g de pollo deshuesado a la leña con ensalada o papas fritas.","status":true
+    },
+    {
+        "id": 10, "title":"Caesar Salad", "price": 3350, "category": "salad", "code":1131, "stock": 5, "description":"Lechuga fresca romana,pollo grillado, queso parmesano, croutones y nuestro famoso aderezo caesar.","status":true
+    },
+    {
+        "id": 11, "title":"Green Alabama Salad", "price": 3000, "category": "salad", "code":1132, "stock": 30, "description":"Colchon de rúcula y espinaca fresca, remolacha glaseada,tomates especiados, queso brie y vinagreta de frutos secos.","status":true
+    },
+    {
+        "id": 12, "title":"Cobb Salad", "price": 3450, "category": "salad", "code":1133, "stock": 6, "description":"Lechugas frescas, 125g de pollo grillado,tomate, panceta ahumada, huevo, palta y queso roquefort.","status":true
+    },
+    {
+        "id": 13,"title":"Sweet Shot x6", "price": 3600, "category": "desserts", "code":1134, "stock": 17, "description":"Degustacíon de pequeños postres x6 lemon pie, chocotorta, trio de chocolate, oreo, cheescake, tiramisú.","status":true
+    },
+    {
+        "id": 14," title":"Frutos Del Bosque", "price": 2050, "category": "desserts", "code":1135, "stock": 2, "description":"Frambuesas, moras y arandanos maserados al vino tinto y con bocha de helado de mascarpone y crema chantilly.","status":true
+    },
+    {
+        "id": 15," title": "Brownie & Ice Cream", "price": 1700, "category": "desserts", "code":1136, "stock": 5, "description":"Brownie tibio con helado de americana.","status":true
+    }
+]
