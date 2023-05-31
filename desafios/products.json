@@ -1,42 +1,8 @@
-[
-    
-    {
-    "id": "await manager.generateId()",
-    "title": "Camiseta de la selección Argentina",
-    "description": "Camiseta nilon talle L selección Argentina",
-    "price": "19000",
-    "thumbnail": "../img/camiseta.jpg",
-    "code": "100022",
-    "stock": "15"
-    },
-
-    {
-    "id": "await manager.generateId()",
-    "title": "Conjunto de la seleccion Argentina",
-    "description": "Conjunto algodón talle s selección Argentina",
-    "price": "14250",
-    "thumbnail": "../img/pantalon.jpg",
-    "code": "100933",
-    "stock": "23"
-    },
-
-    {
-    "id": "await manager.generateId()",
-    "title" : "Gorra de la seleccion Argentina", 
-    "description" : "Gorra selección Argentina",
-    "price": "5000",
-    "thumbnail": "../img/gorra.jpg",
-    "code": "100412",
-    "stock": "8"
-    },
-    
-    {
-    "id": "await manager.generateId()",
-    "title" : "Mochila de la seleccion Argentina",
-    "description" : "Mochila estudiantil selección Argentina",
-    "price": "22500",
-    "thumbnail": "../img/pantalon.jpg",
-    "code": "100556",
-    "stock": "13"
-    }
-]
+[{"id":1,
+"title":"Harry Potter: La piedra Filosofal",
+"description":"J K Rowlin",
+"price":"4500",
+"code":"zE9R3",
+"stock":"30",
+"category":"Fantastico",
+"status":true}]

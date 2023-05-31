@@ -1,6 +1,6 @@
 import { Router } from "express";
 import ProductManager from "../Managers/ProductManager.js";
-import { validate } from "../Utils/index.js";
+import { validate } from "../Utils/validate.js";
 
 const ProductsRouter = Router();
 
